@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+	<!-- Enter a brief description of your page -->
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<!-- Add normalize.css which enables browsers to render all elements more consistently and in line with modern standards as it only targets particular styles that need normalizing -->
+	<link href="css/normalize.css" rel="stylesheet" media="all">
+	<link href="css/barber.css" rel="stylesheet" media="all" type="text/css">
+	<title>Good Barber|Good Haircuts</title>
+	<!-- Include the HTML5 shiv print polyfill for Internet Explorer browsers 8 and below -->
+	<!--[if lt IE 9]><script src="js/html5shiv-printshiv.js" media="all"></script><![endif]-->
+</head>
+
+
+
+
+
+
+
+<body>
+	<!-- ARIA: the landmark role "banner" is set as it is the prime heading or internal title of the page -->
+	<header role="banner">
+		<!-- ARIA: the landmark role "navigation" is added here as the element contains site navigation -->
+		<nav role="navigation" id="topbar">
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Our Barbers</a></li>
+				<li><a href="#">Appointments</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Contact Us</a></li>
+			</ul>
+		</nav>
+
+		<section class="hero">
+			<div class="hero-content">
+				<h1 class="hero-title">
+					Good Barber
+				</h1>
+				<h2 class="hero-subtitle">
+					We offer the best haircuts and handmade products!
+				</h2>
+				<button type="button" class="hero-button" onclick="#">
+					See our barbers &raquo;</button>
+				</div>
+			</section>
+		</header>
+		<!-- If you want to use an element as a wrapper, i.e. for styling only, then <div> is still the element to use -->
+		<div class="wrap">
+			<!-- ARIA: the landmark role "main" is added here as it contains the main content of the document -->
+			<main role="main">
+				<!-- The <section> element can be used to enclose content that comes under a related heading -->
+				<section id="infoslides">
+					<ul>
+						<li>
+							icon
+							<h3>Haircuts</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+							<a href="#">Click here &raquo;</a>
+						</li>
+						<li>
+							icon
+							<h3>Beard Work</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+							<a href="#">Click here &raquo;</a>
+						</li>
+						<li>icon
+							<h3>Products</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+							<a href="#">Click here &raquo;</a>
+						</li>
+					</ul>
+				</section>
+
+
+				<section id="review">
+					<p>What customers are saying:</p>
+					<blockquote>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+						<footer>
+							—Aldous Huxley, <cite>Brave New World</cite>
+						</footer>
+					</blockquote>
+				</section>
+			</main>
+		</div>
+		<!-- ARIA: the landmark role "contentinfo" is added here as it contains metadata that applies to the parent document -->
+		<footer role="contentinfo" id="footer">
+			<!-- The <address> element contains contact information for the nearest <article> or <body> element. This example is for the <body> -->
+			<address>
+				<p>Web Design by <a href="#">Will Colindres</a>.</p>
+			</address>
+			<!-- Copyright information can be contained within the <small> element. The <time> element is used here to indicate that the '2018' is a date -->
+			<small>Copyright &copy; <time>2020</time></small>
+		</footer>
+	</body>
+	</html>
